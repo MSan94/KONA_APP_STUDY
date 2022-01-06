@@ -8,12 +8,24 @@
     android:layout_margin="10dp">
 
     <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
         android:id="@+id/btn_Retrofit"
         android:text="레트로핏"
         android:background="@color/purple_200"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton        android:layout_margin="10dp"
+
+        android:id="@+id/btn_Mvp1"
+        android:text="MVP1"
+        android:background="@color/purple_200"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Retrofit"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
 

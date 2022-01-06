@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".retrofit.RetrofitActivity" />
+        <activity android:name=".mvp.view.MvpMainActivity"/>
     </application>
 
 </manifest>
